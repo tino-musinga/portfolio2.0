@@ -1,0 +1,26 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .contact-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-container p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .contact-container a {
+    color: blue; /* Change link color as needed */
+    text-decoration: none;
+  }
+  
+  .contact-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

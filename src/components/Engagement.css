@@ -1,0 +1,32 @@
+.engagement-container {
+    padding: 20px;
+  }
+  
+  .engagement-section {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .light-grey {
+    background-color: #f0f0f0; /* Light grey shade */
+  }
+  
+  .darker-grey {
+    background-color: #d9d9d9; /* Slightly darker grey shade */
+  }
+  
+  .engagement-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .engagement-title {
+    margin: 0;
+  }
+  
+  .engagement-date {
+    font-style: italic;
+  }
+  

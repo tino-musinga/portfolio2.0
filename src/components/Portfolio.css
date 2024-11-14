@@ -1,0 +1,98 @@
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .about-card {
+    background-color: #f5e1d1; /* Light brown shade */
+  }
+  
+  .work-history-card {
+    background-color: #e8c8a0; /* Light brown shade */
+  }
+  
+  .skills-card {
+    background-color: #f5e1d1; /* Light brown shade */
+  }
+  
+  .certification-card {
+    background-color: #e8c8a0; /* Light brown shade */
+  }
+  
+  .card-label {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-text {
+  
+    font-weight: bold;
+    font-family: Arial, 'Georgia', serif; /* Example of a different font */
+  }
+  
+  .job {
+    margin-bottom: 15px;
+  }
+  
+  .job-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .job-role {
+    margin-top: 5px;
+  }
+  
+  .job-summary {
+    margin-top: 5px;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .skills-category {
+    margin-bottom: 20px;
+  }
+  
+  .skill-card {
+    display: inline-block;
+    background-color: #d1e7f5; /* Default skill card color */
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+  
+  .sky-blue {
+    background-color: #a0d1e8; /* Sky blue for software skills */
+  }
+  
+  .green {
+    background-color: #a0e8a0; /* Green for programming skills */
+  }
+  
+  .certification-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .certification-summary {
+    margin-top: 5px;
+  }
+  

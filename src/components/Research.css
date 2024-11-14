@@ -1,0 +1,40 @@
+.research-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .research-card {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .research-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .light-blue {
+    background-color: #e0f7fa; /* Light blue shade */
+  }
+  
+  .light-blue-alt {
+    background-color: #b2ebf2; /* Alternate light blue shade */
+  }
+  
+  .research-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .research-title {
+    font-weight: bold;
+  }
+  
+  .research-date {
+    font-style: italic;
+  }
+  

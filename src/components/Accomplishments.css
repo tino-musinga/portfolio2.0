@@ -1,0 +1,27 @@
+.accomplishments-container {
+    padding: 20px;
+  }
+  
+  .section {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .awards-section {
+    background-color: #f0f0f0; /* Light grey shade */
+  }
+  
+  .scholarships-section {
+    background-color: #d9d9d9; /* Slightly darker grey shade */
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
